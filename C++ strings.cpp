@@ -25,7 +25,7 @@ int main() {
     //append
     string firstName = "John ";
     string lastName = "Doe";
-    string fullName = first.Nameappend(lastName);
+    string fullName = firstName.append(lastName);
     cout << fullName;
 
     cout << endl;
@@ -46,9 +46,10 @@ int main() {
     cout << endl;
 
     //eg
-    string x = "10";
-    int y = 20;
-    string z = x + y; 
+    string a = "10";
+    int b = 20;
+    string c = a + b; 
+    //If you try to add a number to a string, an error occurs
 
     cout << endl;
 
