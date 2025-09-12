@@ -49,7 +49,7 @@ int main() {
     string a = "10";
     int b = 20;
     string c = a + b; 
-    //If you try to add a number to a string, an error occurs
+    //If you try to add a number to a string, an error occurs.
 
     cout << endl;
 
