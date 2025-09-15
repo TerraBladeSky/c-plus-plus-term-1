@@ -27,7 +27,7 @@ int main() {
     The break and default keywords are optional, 
     and will be described later*/
 
-    //eg
+    //eg 1
     int day = 4;
     switch (day) {
         case 1:
@@ -54,6 +54,23 @@ int main() {
     }
 
     // outputs "Thursday" (day 4)
+
+    cout << endl;
+
+    //eg 2
+    int day = 4
+    switch (day) {
+        case 6:
+            cout << "Today is saturday";
+            break;
+        case 7:
+            cout << "Today is Sunday";
+            break;
+        default:
+            cout << "Looking forward to the weekend";
+    }
+
+    // outputs "looking forward to the weekend"
 
     cout << endl;
 
