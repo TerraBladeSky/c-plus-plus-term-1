@@ -13,7 +13,7 @@ int main() {
     //eg
     int i = 0;
     while (i < 5) {
-        coput << i << endl;
+        cout << i << endl;
         i++;
     }
 
