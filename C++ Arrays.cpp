@@ -345,7 +345,7 @@ int main() {
     int numberOfTurns = 0;
 
     // allow the player to keep going until they have hit all four ships
-    whiile (hits < 4) {
+    while (hits < 4) {
         int row, column;
 
         cout << "selecting coordinates" << endl;
@@ -359,7 +359,7 @@ int main() {
         cin >> column;
 
         // check if a ship exists in those coordinates
-        if (ships[row][column]) {
+        if (ships[row][column]) 
             // if the player hit a ship, remove it by setting the value to zero
             ships[row][column] = 0;
 
@@ -388,4 +388,4 @@ int main() {
 
     return 0;
 
-}
+}~
