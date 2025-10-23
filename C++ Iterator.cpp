@@ -70,7 +70,7 @@ int main() {
 
     // eg
     for (auto it = cars.begin(); it != cars.end(); ++it) {
-        cout << *it << "\n";
+        cout << *it << endl;
     }
 
     // for each loop vs iterators
@@ -80,7 +80,7 @@ int main() {
 
     // Print vector elements
     for (string car : cars) {
-        cout << car << "\n";
+        cout << car << endl;
     }
 
     // iterator
@@ -98,13 +98,13 @@ int main() {
 
     // Print vector elements
     for (const string& car : cars) {
-        cout << car << "\n";
+        cout << car << endl;
     }
 
     // iterate in reverse
     // Iterate in reverse order
     for (auto it = cars.rbegin(); it != cars.rend(); ++it) {
-        cout << *it << "\n";
+        cout << *it << endl;
     }
 
     //end
@@ -117,7 +117,7 @@ int main() {
 
     // Loop through the list with an iterator
     for (auto it = cars.begin(); it != cars.end(); ++it) {
-        cout << *it << "\n";
+        cout << *it << endl;
     }
 
     // deque example
@@ -126,7 +126,7 @@ int main() {
 
     // Loop through the deque with an iterator
     for (auto it = cars.begin(); it != cars.end(); ++it) {
-        cout << *it << "\n";
+        cout << *it << endl;
     }
 
     // set example
@@ -135,7 +135,7 @@ int main() {
 
     // Loop through the set with an iterator
     for (auto it = cars.begin(); it != cars.end(); ++it) {
-        cout << *it << "\n";
+        cout << *it << endl;
     }
 
     // map example
@@ -144,7 +144,7 @@ int main() {
 
     // Loop through the map with an iterator
     for (auto it = people.begin(); it != people.end(); ++it) {
-        cout << it->first << " is: " << it->second << "\n";
+        cout << it->first << " is: " << it->second << endl;
     }
 
     // algorithms
@@ -163,7 +163,7 @@ int main() {
 
         // Print cars in alphabetical order
         for (string car : cars) {
-            cout << car << "\n";
+            cout << car << endl;
         }
 
         return 0;
@@ -183,7 +183,7 @@ int main() {
         sort(numbers.begin(), numbers.end());
 
         for (int num : numbers) {
-            cout << num << "\n";
+            cout << num << endl;
         }
 
         return 0;
@@ -203,7 +203,7 @@ int main() {
         sort(numbers.rbegin(), numbers.rend());
 
         for (int num : numbers) {
-            cout << num << "\n";
+            cout << num << endl;
         }
 
         return 0;
