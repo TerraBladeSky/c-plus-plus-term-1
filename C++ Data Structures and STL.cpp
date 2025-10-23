@@ -48,7 +48,7 @@ int main() {
 
     // Print vector elements
     for (string car : cars) {
-        cout << car << "\n";
+        cout << car << endl;
     }
 
     // Create a vector called cars that will store strings
@@ -128,14 +128,14 @@ int main() {
     vector<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
     for (int i = 0; i < cars.size(); i++) {
-        cout << cars[i] << "\n";
+        cout << cars[i] << endl;
     }
 
     //for each loop
     vector<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
     for (string car : cars) {
-        cout << car << "\n";
+        cout << car << endl;
     }
 
     cout << endl;
